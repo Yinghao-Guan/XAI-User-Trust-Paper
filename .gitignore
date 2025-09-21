@@ -1,0 +1,60 @@
+# This file is a template for LaTeX projects, ignoring
+# files generated during compilation and from common IDEs/OS.
+
+# LaTeX build artifacts
+# --------------------
+# A temporary directory for all the compiler's output
+AuxiliaryFiles/
+# Auxiliary files created by the compiler
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.log
+*.lof
+*.lot
+*.nav
+*.out
+*.snm
+*.toc
+*.run.xml
+*.spl
+*.synctex.gz
+*.gz
+
+# Bibliography files
+# ------------------
+*.bbl
+*.blg
+*.bcf
+
+# LaTeX editor temporary files
+# -----------------------------
+*.bak
+*.old
+*~
+.latex.bak
+
+# PDF output
+# ----------
+# You might want to keep the final PDF, but it's good practice
+# to ignore it as it can be easily rebuilt.
+# *.pdf
+
+# VS Code temporary files
+# -----------------------
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.history/
+
+# Common OS files
+# ---------------
+.DS_Store      # macOS
+.Trashes       # macOS
+Thumbs.db      # Windows
+
+# Git-related files
+# -----------------
+.git*
+!/.gitignore
