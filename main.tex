@@ -15,6 +15,9 @@
 \usepackage{setspace}           % For line spacing
 \usepackage[backend=biber, style=authoryear]{biblatex} % Bibliography management
 
+% Other packages
+\usepackage{lipsum}             % Delete this after finished the paper
+
 % Page margins
 \geometry{a4paper,
     left=3cm,
@@ -51,6 +54,11 @@
 
 % Abstract
 \input{abstract.tex}
+\lipsum[1]
+\clearpage % Start a new page
+
+% Table of Contents
+\tableofcontents
 \clearpage % Start a new page
 
 % Introduction
@@ -84,12 +92,13 @@
 \clearpage
 
 % Bibliography
+\nocite{*}
 \printbibliography
 \clearpage
 
 % Appendix
 \appendix
-\section{Appendix}
+\section*{Appendix}
 % Include appendix content here, e.g.:
 % \input{appendix.tex}
 
