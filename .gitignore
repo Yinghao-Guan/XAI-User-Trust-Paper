@@ -51,6 +51,7 @@ AuxiliaryFiles/
 # Common OS files
 # ---------------
 .DS_Store      # macOS
+**/.DS_Store   # macOS
 .Trashes       # macOS
 Thumbs.db      # Windows
 
